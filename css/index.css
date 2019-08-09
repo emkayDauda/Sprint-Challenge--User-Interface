@@ -168,3 +168,8 @@ header nav .anchors {
     flex-grow: 1;
     justify-content: space-around;
 }
+
+.top-section {
+    margin: 20px 15px;;
+}
+
