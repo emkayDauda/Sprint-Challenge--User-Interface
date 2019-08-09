@@ -160,3 +160,11 @@ header nav {
     margin: 40px 0;
     align-items: flex-end;
 }
+
+
+header nav .anchors {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
