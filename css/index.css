@@ -173,3 +173,10 @@ header nav .anchors {
     margin: 20px 15px;;
 }
 
+.middle-section {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px dashed #000;
+    padding-top: 35px;
+}
+
