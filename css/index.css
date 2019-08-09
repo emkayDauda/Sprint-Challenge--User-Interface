@@ -153,3 +153,10 @@ header nav a {
 header nav a:hover {
     color: silver;
 }
+
+header nav {
+    display: flex;
+    justify-content: start;
+    margin: 40px 0;
+    align-items: flex-end;
+}
