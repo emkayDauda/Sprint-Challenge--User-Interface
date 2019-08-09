@@ -38,7 +38,7 @@ Answer: Semantic Html brings meaning into the markup of a webpage, which means t
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-Anwer: Display
+Anwer: Display block takes up all possible width, not allowing other elements to be displayed on the same horizontal space (row) and also respects height and width. Display inline allows other elements on the same line and does not respect height and width when specified.
 
 3. What are the 4 areas of the box model?
 
