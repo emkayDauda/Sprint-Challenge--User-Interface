@@ -219,3 +219,23 @@ padding: 25px 18px;
 #b8 { background: hotpink; }
 #b9 { background: indigo; }
 #b10 {background: dodgerblue; }
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover span {
+    padding-right: 25px;
+    color: gold;
+  }
+  
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+    color: gold;
+  }
